@@ -1,0 +1,154 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: brown;
+}
+
+.container{
+	text-align: center;
+}
+
+#firstdiv{
+	background-color: darkred;
+	text-align: center;
+	width: 500px;
+	min-height: 200px;
+	margin: auto;
+	margin-top: 70px;
+	padding-top: 10px;
+	padding-bottom: 7px;
+	border-radius: 5px;
+	border: 2px solid black;
+	box-shadow: 3px 5px 10px 1px;
+}
+
+#seconddiv{
+	background-color: red;
+	text-align: center;
+	width: 500px;
+	min-height: 130px;
+	margin: auto;
+	margin-top: 30px;
+	padding-top: 10px;
+	padding-bottom: 6px;
+	border-radius: 5px;
+	border: 2px solid black;
+	box-shadow: 3px 5px 10px 1px;
+}
+
+.butt-inpu{
+	height: 35px;
+	border-radius: 5px;
+	width: 300px;
+	font-size: 20px;
+}
+
+.firs{
+	color: white;
+}
+
+.seco{
+	color: darkred;
+}
+
+#ent{
+	border: 2px solid skyblue;
+	border-style: none none solid none;
+	background-color: darkred;
+	outline: none;
+	width: 350px;
+	color: skyblue;
+	font-size: 20px;
+}
+
+.fir{
+	display: block;
+	background-color: darkred;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+}
+
+.sec{
+	background-color: red;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+#wrong{
+	display: none;
+	width: 300px;
+	height: 40px;
+	border: 2px solid pink;
+	background-color: purple;
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+
+#afteradd{
+    display: none;
+	width: 300px;
+	height: 40px;
+	border: 2px solid pink;
+	background-color: orange;
+	text-transform: uppercase;
+	margin: 0 auto; 
+}
+
+#correct{
+	display: none;
+	width: 300px;
+	height: 40px;
+	border: 2px solid pink;
+	background-color: purple;
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+
+#afterremove{
+	display: none;
+	width: 300px;
+	height: 40px;
+	border: 2px solid pink;
+	background-color: orange;
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+
+/*#afteradd{
+	display: none;
+	width: 300px;
+	height: 40px;
+	border: 2px solid pink;
+	background-color: purple;
+	text-transform: uppercase;
+	margin: 0 auto;
+}*/
+
+.logs{
+	 width: 30px;
+	 height: 30px;
+	 border-radius: 15px;
+	 background-color: black;
+	 color: white;
+	 float: right;
+}
+
+.mystyle{
+	list-style-type: none;
+	width: 400px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 15px;
+	position: relative;
+	text-align: left;
+	margin: 0 auto;
+	margin-top: 15px;
+	text-transform: capitalize;
+}
+border-style: solid none solid solid
+
+border: 1px solid pink;
+border-right: 0;
