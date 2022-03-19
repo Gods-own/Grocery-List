@@ -16,7 +16,7 @@ function addItems() {
 
 	} else {
 		var nos = document.createElement('li');
-		 nos.innerHTML = ajoute + "<button class='logs'>X</button>"
+		 nos.innerHTML = ajoute + "<button class='logs'>X</button> <div class='logs-after'></div>"
          lis.appendChild(nos);
          document.querySelector('#ent').value = '';
 
