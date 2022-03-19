@@ -149,6 +149,12 @@ h2 {
 	margin-top: 0.3rem;
 }
 
+@media screen and (min-width: 385px) and (max-width: 538px){
+	html {
+		font-size: 17px;
+	}
+}
+
 @media screen and (min-width: 539px) {
 	#firstdiv{
 	text-align: center;
@@ -228,3 +234,4 @@ h2 {
 	margin-top: 15px;
 }
 }
+
