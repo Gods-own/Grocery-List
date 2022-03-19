@@ -9,39 +9,90 @@ body{
 	text-align: center;
 }
 
-#firstdiv{
-	background-color: darkred;
-	text-align: center;
-	width: 500px;
-	min-height: 200px;
-	margin: auto;
-	margin-top: 70px;
-	padding-top: 10px;
-	padding-bottom: 7px;
+h2 {
+	font-size: 1.2rem;
+}
+
+#firstdiv, #seconddiv{
+	width: 97%;
 	border-radius: 5px;
+	margin: auto;
 	border: 2px solid black;
 	box-shadow: 3px 5px 10px 1px;
 }
 
-#seconddiv{
+#firstdiv {
+	background-color: darkred;
+	margin-top: 4rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+#seconddiv {
 	background-color: red;
-	text-align: center;
-	width: 500px;
-	min-height: 130px;
-	margin: auto;
-	margin-top: 30px;
-	padding-top: 10px;
-	padding-bottom: 6px;
-	border-radius: 5px;
-	border: 2px solid black;
-	box-shadow: 3px 5px 10px 1px;
+	margin-top: 1.8rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.3rem;
 }
 
 .butt-inpu{
-	height: 35px;
+	height: 33px;
 	border-radius: 5px;
-	width: 300px;
-	font-size: 20px;
+	width: 180px;
+	font-size: 0.9rem;
+}
+
+#wrong{
+	display: none;
+	width: 93%;
+	height: 38px;
+	border: 2px solid pink;
+	font-size: 0.9rem;
+	background-color: purple;
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+
+#afteradd{
+    display: none;
+	width: 93%;
+	height: 38px;
+	border: 2px solid pink;
+	font-size: 0.9rem;
+	background-color: orange;
+	text-transform: uppercase;
+	margin: 0 auto; 
+}
+
+#correct{
+	display: none;
+	width: 93%;
+	height: 38px;
+	border: 2px solid pink;
+	font-size: 0.9rem;
+	background-color: purple;
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+
+#afterremove{
+	display: none;
+	width: 93%;
+	height: 38px;
+	border: 2px solid pink;
+	font-size: 0.9rem;
+	background-color: orange;
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+
+#ent{
+	border: 2px solid skyblue;
+	border-style: none none solid none;
+	background-color: darkred;
+	outline: none;
+	width: 93%;
+	color: skyblue;
+	font-size: 1rem;
 }
 
 .firs{
@@ -52,68 +103,111 @@ body{
 	color: darkred;
 }
 
-#ent{
-	border: 2px solid skyblue;
-	border-style: none none solid none;
-	background-color: darkred;
-	outline: none;
-	width: 350px;
-	color: skyblue;
-	font-size: 20px;
+.logs{
+	 width: 24px;
+	 height: 24px;
+	 border-radius: 15px;
+	 background-color: black;
+	 color: white;
+	 font-size: 0.8rem;
+	 float: right;
+}
+
+.logs-after {
+	clear: both;
+}
+.appe2 {
+	margin: 0;
+}
+
+.mystyle{
+	list-style-type: none;
+	width: 95%;
+	height: 30px;
+	font-size: 1rem;
+	font-weight: bold;
+	margin: auto;
+	margin-left: -1rem;
+	/*margin-left: 0.9rem;*/
+	/*position: relative;*/
+	text-align: left;
+	margin-top: 0.9rem;
+	text-transform: capitalize;
 }
 
 .fir{
 	display: block;
 	background-color: darkred;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 1.2rem;
     color: white;
 }
 
 .sec{
 	background-color: red;
 	font-weight: bold;
+	margin-top: 0.3rem;
+}
+
+@media screen and (min-width: 539px) {
+	#firstdiv{
+	text-align: center;
+	width: 500px;
+	min-height: 200px;
+	margin-top: 70px;
+	padding-top: 10px;
+	padding-bottom: 7px;
+}
+
+#seconddiv{
+	text-align: center;
+	width: 500px;
+	min-height: 130px;
+	margin-top: 30px;
+	padding-top: 10px;
+	padding-bottom: 6px;
+}
+
+.butt-inpu{
+	height: 35px;
+	border-radius: 5px;
+	width: 300px;
+	font-size: 20px;
+}
+
+#ent{
+	width: 350px;
+	font-size: 20px;
+}
+
+.fir{
+    margin-top: 20px;
+    color: white;
+}
+
+.sec{
 	margin-top: 25px;
 }
 
 #wrong{
-	display: none;
 	width: 300px;
 	height: 40px;
 	border: 2px solid pink;
-	background-color: purple;
-	text-transform: uppercase;
-	margin: 0 auto;
 }
 
 #afteradd{
-    display: none;
 	width: 300px;
 	height: 40px;
-	border: 2px solid pink;
-	background-color: orange;
-	text-transform: uppercase;
-	margin: 0 auto; 
 }
 
 #correct{
-	display: none;
 	width: 300px;
 	height: 40px;
-	border: 2px solid pink;
-	background-color: purple;
-	text-transform: uppercase;
-	margin: 0 auto;
 }
 
 #afterremove{
-	display: none;
 	width: 300px;
 	height: 40px;
-	border: 2px solid pink;
-	background-color: orange;
-	text-transform: uppercase;
-	margin: 0 auto;
 }
 
 /*#afteradd{
@@ -126,29 +220,11 @@ body{
 	margin: 0 auto;
 }*/
 
-.logs{
-	 width: 30px;
-	 height: 30px;
-	 border-radius: 15px;
-	 background-color: black;
-	 color: white;
-	 float: right;
-}
-
 .mystyle{
-	list-style-type: none;
 	width: 400px;
 	height: 30px;
 	font-size: 20px;
-	font-weight: bold;
 	margin-left: 15px;
-	position: relative;
-	text-align: left;
-	margin: 0 auto;
 	margin-top: 15px;
-	text-transform: capitalize;
 }
-border-style: solid none solid solid
-
-border: 1px solid pink;
-border-right: 0;
+}
